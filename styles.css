@@ -21,3 +21,72 @@ body{
     height: 100px;
     background-color: aqua;
 }
+
+.publish > *{
+    /* container styles if any */
+    
+  }
+  
+  .publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish form > * {
+    display: flex;
+    font-size: 14px;
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+  .form-email{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    align-content: center;
+}
+
+.form-email > *{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-email{
+    border-left: 1px solid #025157;
+    border-top: 1px solid #025157;
+    border-bottom: 1px solid #025157;
+    border-right: none;
+    height: 48px;
+    margin-right: 0;
+    display: block;
+    color: #4a4a4a;
+    border-radius: 7px 0 0 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-subs{
+    width: 100px;
+    border: 1px solid #025157;
+    border-radius: 0px 7px 7px 0;
+    background-color: #025157;
+    color: white;
+    border-left: none;
+}
+
+.btn-subs:hover{
+    background-color: #67b54b;
+    border: 1px solid #67b54b;
+}
